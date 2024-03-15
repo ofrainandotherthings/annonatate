@@ -1,0 +1,33 @@
+---
+canvas: "https://upload.wikimedia.org/wikipedia/commons/7/7e/PowersBibleQuilt_1886.jpg"
+order: 4
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "hjklhl\u00f6jkmklm",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ofrainandotherthings",
+                "name": "Jennifer B."
+            },
+            "created": "2024-03-15T08:58:31.766Z",
+            "modified": "2024-03-15T08:58:32.475Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "id": "https://upload.wikimedia.org/wikipedia/commons/7/7e/PowersBibleQuilt_1886.jpg",
+            "type": "image"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"283.73712158203125,220.48883056640625 385.3865966796875,184.5609893798828 366.9845275878906,321.26202392578125 225.90206909179688,313.37542724609375 216.2628936767578,248.53005981445312\"></polygon></svg>"
+        }
+    },
+    "id": "491c5c43-c444-4b58-8bff-b150ef32599e.json",
+    "motivation": "commenting"
+}
